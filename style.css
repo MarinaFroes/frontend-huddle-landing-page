@@ -1,0 +1,165 @@
+:root {
+  --primary-btn-color: hsl(322, 100%, 66%);
+  --intro-bg-color: hsl(193, 100%, 96%);
+  --footer-bg-color: hsl(192, 100%, 9%);
+  --main-text-color: hsl(0, 0, 100%);
+  --secondary-text-color: hsl(208, 11%, 55%);
+  --heading-font-family: 'Poppins', sans-serif;
+  --main-font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  color: var(--main-text-color);
+}
+
+h1, 
+h2, 
+p, 
+a {
+  color: var(--main-text-color);
+}
+
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+img.nav-logo {
+  height: 0.5rem;
+}
+
+button.try-it-free {
+  background-color: #fff;
+  /* border: none; */
+  border-radius: 30px;
+  height: 1.5rem;
+  width: 8rem;
+}
+
+
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/bg-hero-mobile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-img {
+  width: 90%;
+}
+
+button.get-started {
+  background-color: var(--primary-btn-color);
+  border: none;
+  border-radius: 50px;
+  height: 2rem;
+  width: 70%;
+}
+
+
+
+/* Footer */
+
+footer {
+  margin: 0;
+  padding: 12rem 2rem 2rem 2rem;
+  /* background-color: var(--footer-bg-color); */
+  /* color: var(--main-text-color); */
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-icon {
+  width: 1.5rem;
+  padding-top: 15px;
+}
+
+.footer-text {
+  padding: 10px 0 0 1rem;
+}
+
+.info-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.links-group {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-link {
+  /* color: var(--main-text-color); */
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.attribution-container {
+  text-align: center;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+
+/* .attribution a { 
+  color: var(--main-text-color); 
+} */
+
+.icon {
+  text-decoration: none;
+  /* color: var(--main-text-color); */
+  padding: 1rem;
+}
+
+.icon:hover {
+  color: grey;
+}
+
+@media only screen and (min-width: 700px){
+  header {
+    background: url('./images/bg-hero-desktop.svg');
+  }
+}
