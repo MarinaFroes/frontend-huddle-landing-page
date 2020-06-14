@@ -46,7 +46,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   width: 100%;
 }
 
@@ -79,7 +78,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid blue;
 }
 
 .intro-container {
@@ -87,7 +85,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid orange;
 }
 
 .intro-text {
@@ -128,7 +125,6 @@ button.get-started {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid pink;
   padding: 2rem 0;
 }
 
@@ -140,7 +136,6 @@ button.get-started {
   border-radius: 10px;
   margin: 1rem 0;
   width: 90%;
-  border: 2px solid lime;
   -webkit-box-shadow: 0 0 10px 0 rgba(230,230,230,1);
   -moz-box-shadow: 0 0 10px 0 rgba(230,230,230,1);
   box-shadow: 0 0 10px 0 rgba(230,230,230,1);
@@ -149,18 +144,15 @@ button.get-started {
 .feature-img {
   width: 80%;
   margin: 1rem 0;
-  border: 2px solid purple;
 }
 
 .text-container {
   text-align: center;
   padding: 0 2rem 2rem 2rem;
-  border: 2px solid salmon;
 }
 
 .text-container h2 {
   margin-top: 2rem;
-  border: 2px solid yellow;
 } 
 
 .text-container p {
@@ -170,7 +162,6 @@ button.get-started {
 
 /* Get started */
 .get-started-container {
-  border: 2px solid green;
   position: relative;
   height: 12rem;
   display: flex;
@@ -212,7 +203,6 @@ button.get-started {
 footer {
   margin: 0;
   padding: 8rem 2rem 2rem 2rem;
-  border: 2px solid yellow;
   background-color: var(--footer-bg-color); 
   color: white;
 }
@@ -339,5 +329,30 @@ footer {
 
   .text-container {
     text-align: left;
+  }
+
+  /* Footer */
+
+  .about {
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .info-links {
+    flex-direction: row;
+  }
+
+  .links-group {
+    padding: 0 2rem;
+  }
+
+  .phone-email-container {
+    padding: 0 2rem;
+  }
+
+  .contact-info.location {
+    max-width: 25rem;
   }
 }
