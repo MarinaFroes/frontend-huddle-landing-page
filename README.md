@@ -6,9 +6,8 @@
 ## Overview
 
 - Here you can preview the results for mobile and desktop:
-<p align="center"><img src="./design/desktop-layout.png" alt="desktop version" title="desktop version"></p>
+<p align="center"><img src="./design/huddle-screenshot.png" alt="page screenshot" title="page screenshot" width="100%"></p>
 
-<p align="center"><img src="./design/mobile-layout.png" alt="mobile version" title="mobile version" width="50%"></p>
 
 ## Goals
 
